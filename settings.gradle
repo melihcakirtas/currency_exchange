@@ -1,0 +1,2 @@
+rootProject.name='DövizCevirici'
+include ':app'

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrencyActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="12dp"
+        android:text="This application shows the value of 1 Euro in the other other currencies"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp">
+    <TextView
+        android:id="@+id/textcad"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="CAD:"
+        android:gravity="center"
+        android:textColor="@color/colortext"
+        tools:layout_editor_absoluteX="174dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="82dp" />
+    <TextView
+        android:id="@+id/textusd"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="USD:"
+        android:gravity="center"
+        android:textColor="@color/colortext"
+        tools:layout_editor_absoluteX="176dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="136dp" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/textjpy"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="JPY:"
+        android:textColor="@color/colortext"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="176dp"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/texttry"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="TRY:"
+        android:textColor="@color/colortext"
+        android:gravity="center"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="176dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="248dp" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:id="@+id/textcny"
+        android:textColor="@color/colortext"
+        android:text="CNY:"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:id="@+id/textgbp"
+        android:textColor="@color/colortext"
+        android:text="GBP:"/>
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="245dp"
+        android:layout_height="236dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:onClick="getrates"
+        android:background="@drawable/back" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>

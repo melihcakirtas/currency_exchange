@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "365432646566",
+    "firebase_url": "https://currency-da5b5.firebaseio.com",
+    "project_id": "currency-da5b5",
+    "storage_bucket": "currency-da5b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365432646566:android:13236f5a33e06c404fbd67",
+        "android_client_info": {
+          "package_name": "com.melih.dvizcevirici"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365432646566-o61lps38uk9gcdkouna2ehse513m9nkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3OjY7Z3x6J1WHuV4slNClwul0SKp1qmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365432646566-o61lps38uk9gcdkouna2ehse513m9nkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
